@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.controller;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.Is.is;
 
 @QuarkusTest
-public class HelloServiceTest {
+public class HelloControllerTest {
 
     @Test
     public void testHelloEndpoint() {
