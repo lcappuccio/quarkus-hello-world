@@ -8,3 +8,15 @@
   * /q/health/ready - The application is ready to serve requests. 
   * /q/health/started - The application is started. 
   * /q/health - Accumulating all health check procedures in the application.
+* `micrometer` health check extension installed, view endpoints:
+    * /q/metrics
+    * /q/metrics/gauge
+
+# how to run
+* `mvn quarkus:dev`
+
+or
+
+* `mvn clean install`
+* `cd target\quarkus-app`
+* `java -jar $artifact-name.jar`
