@@ -4,7 +4,7 @@ import io.micrometer.core.instrument.MeterRegistry;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 
-@Path("/metrics")
+@Path("/hello-metrics")
 @Produces("text/plain")
 public class HelloWorldRegistry {
 
